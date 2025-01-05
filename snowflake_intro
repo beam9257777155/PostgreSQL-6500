@@ -1,0 +1,32 @@
+Getting Started Snowflake and Apache Iceberg
+Objective
+We want to explore the intersecation of Apache Iceberg and Snowflake. And understant the use cases.
+
+Key Terms
+Apache Iceberg tables for Snowflake combine the performance and query semantics of typical Snowflake tables with external cloud storage that you manage. They are ideal for existing data lakes that you cannot, or choose not to, store in Snowflake.
+
+Iceberg tables use the Apache Iceber open table format specification, which provides an abstraction layer on data files stored in open formats and supports features such as:
+
+ACID (atomicity, consistency, isolation, durability) transactions
+Schema evolution
+Hidden partitioning
+Table snapshots
+Snowflake supports Iceberg tables that use the Apache Parquet™ file format.
+
+Prerequisites
+Create Snowflake Trial: https://signup.snowflake.com/
+AWS account: https://aws.amazon.com/free/
+Implementation
+Getting Started with Iceberg Tables
+Tutorial: Create your first Apache Iceberg™ table
+Build Data Lakes using Apache Iceberg with Snowflake and AWS Glue
+Materials
+Apache Iceberg: The Definitive Guide
+Best Practices for Data Ingestion with Snowflake: Part 1
+Best Practices for Data Ingestion with Snowflake: Part 2
+Best Practices for Data Ingestion with Snowflake: Part 3
+How To Integrate Databricks With Snowflake-Managed Iceberg Tables
+What's New: Apache Iceberg With Snowflake | Summit 2023
+Big-data dust-up: Why two AI giants are at war over who’s more open
+Query external Iceberg tables created and managed by Databricks with Snowflake
+Snowflake catalog supports cross-engine access to Iceberg data
