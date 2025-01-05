@@ -1,1 +1,1 @@
-# PostgreSQL-6500
+# dbt_workshop
